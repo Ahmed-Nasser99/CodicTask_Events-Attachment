@@ -25,9 +25,9 @@ export default function DisplayEventsAndAttachments() {
               <button className="btn btn-outline-info">Create</button>
               <button className="btn btn-outline-info">Mange</button>
             </div>
-            <table className="table my-3">
+            <table className="table my-3 border">
               <thead>
-                <tr>
+                <tr className="table-secondary">
                   <th scope="col">Name</th>
                   <th scope="col">Attachment</th>
                   <th scope="col">Edit</th>
@@ -37,13 +37,17 @@ export default function DisplayEventsAndAttachments() {
               <tbody id="tableBody">
                 <tr key={23}>
                   <th scope="row">Avms</th>
-                  <td>Dowload</td>
+                  <td>
+                    <i className="fa-solid fa-download text-info fs-5"></i>
+                  </td>
                   <td>E</td>
                   <td>D</td>
                 </tr>
                 <tr key={24}>
                   <th scope="row">Avms</th>
-                  <td>Dowload</td>
+                  <td>
+                    <i className="fa-solid fa-download text-info fs-5"></i>
+                  </td>
                   <td>E</td>
                   <td>D</td>
                 </tr>

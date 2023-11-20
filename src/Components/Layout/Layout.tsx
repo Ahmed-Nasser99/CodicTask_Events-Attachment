@@ -6,10 +6,10 @@ export default function Layout() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-3 p-0">
           <Sidebar />
         </div>
-        <div className="col">
+        <div className="col p-0">
           <Navbar />
           <Outlet />
         </div>

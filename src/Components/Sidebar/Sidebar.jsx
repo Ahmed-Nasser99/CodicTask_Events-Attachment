@@ -14,7 +14,7 @@ export default function Sidebar() {
           <img src={logo} alt="logo" />
         </div>
         <ul className="list-unstyled ps-0">
-          {/* Create button */}
+          {/* Create button  */}
           <li className="mb-1">
             <button
               className="btn btn-toggle align-items-center rounded collapsed flex-row-reverse justify-content-between w-100"

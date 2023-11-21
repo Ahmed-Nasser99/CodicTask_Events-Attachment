@@ -34,7 +34,7 @@ export default function Sidebar() {
             </button>
             <div className="collapse" id="dashboard-collapse"></div>
           </li>
-          {/* Manage button */}
+          {/* Manage button  */}
           <li className="mb-1">
             <button
               className="btn btn-toggle align-items-center rounded collapsed flex-row-reverse justify-content-between w-100"

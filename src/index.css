@@ -1,3 +1,11 @@
+html,
+body,
+#root,
+.container,
+.row {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eee;
+  background-color: #f4f3f8;
 }
 
 code {
@@ -118,4 +126,62 @@ main {
 }
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(270deg) !important;
+}
+
+/* Custom Gray Color For Icons */
+.c-gray {
+  color: #919191;
+}
+.b-gray {
+  background-color: #f4f3f8 !important;
+  color: #000;
+  border: none;
+}
+.b-gray:hover {
+  background-color: #f4f3f8 !important;
+  color: #000;
+  border: none;
+}
+/* Drop Files Input Style */
+.containerr {
+  height: 200px;
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px; */
+  gap: 5px;
+  cursor: pointer;
+  background-color: #f4f3f8;
+}
+
+.header {
+  flex: 1;
+  width: 100%;
+  border: 2px dashed #287db6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header svg {
+  height: 100px;
+}
+
+.header p {
+  text-align: center;
+  color: black;
+}
+
+#file {
+  display: none;
+}
+.sidebar {
+  max-height: 100vh;
+  transition: all 0.3s;
 }

@@ -9,7 +9,7 @@ export default function Sidebar() {
   return (
     <div className="flex-shrink-0 p-3 bg-white w-100 h-100 rounded sidebar d-flex flex-column justify-content-between">
       <div>
-        {/* Logo */}
+        {/*  Logo */}
         <div className="d-flex align-items-center justify-content-center mt-3 mb-5">
           <img src={logo} alt="logo" />
         </div>
